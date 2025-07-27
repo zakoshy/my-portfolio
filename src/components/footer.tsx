@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Linkedin, Twitter, Facebook, Send } from 'lucide-react';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 
 const WhatsAppIcon = () => (
     <svg
@@ -29,24 +30,54 @@ export default function Footer() {
                 <div className="text-center text-sm text-muted-foreground">
                     © {year} Edwin Oshome. All rights reserved.
                 </div>
-                <div className="flex items-center gap-4">
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                        <Linkedin className="h-5 w-5" />
-                        <span className="sr-only">LinkedIn</span>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                        <Twitter className="h-5 w-5" />
-                        <span className="sr-only">Twitter</span>
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                        <Facebook className="h-5 w-5" />
-                        <span className="sr-only">Facebook</span>
-                    </a>
-                    <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                        <WhatsAppIcon />
-                        <span className="sr-only">WhatsApp</span>
-                    </a>
-                </div>
+                <TooltipProvider>
+                    <div className="flex items-center gap-4">
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                    <Linkedin className="h-5 w-5" />
+                                    <span className="sr-only">LinkedIn</span>
+                                </a>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>LinkedIn</p>
+                            </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                    <Twitter className="h-5 w-5" />
+                                    <span className="sr-only">Twitter</span>
+                                </a>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>Twitter</p>
+                            </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                    <Facebook className="h-5 w-5" />
+                                    <span className="sr-only">Facebook</span>
+                                </a>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>Facebook</p>
+                            </TooltipContent>
+                        </Tooltip>
+                        <Tooltip>
+                            <TooltipTrigger asChild>
+                                <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                    <WhatsAppIcon />
+                                    <span className="sr-only">WhatsApp</span>
+                                </a>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                                <p>WhatsApp</p>
+                            </TooltipContent>
+                        </Tooltip>
+                    </div>
+                </TooltipProvider>
             </div>
         </footer>
     );
