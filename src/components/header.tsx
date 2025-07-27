@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container flex h-14 items-center">
         <a href="#" className="flex items-center gap-2 font-bold text-lg">
           <Briefcase className="h-6 w-6 text-primary" />
-          LinkHub Portfolio
+          Edwin Oshome
         </a>
       </div>
     </header>

@@ -48,37 +48,6 @@ export const projects: Project[] = [
     liveUrl: "#",
     repoUrl: "#",
   },
-   {
-    name: "Student Admission System",
-    description:
-      "A streamlined online admission system for universities, simplifying the application process for prospective students and administrative review for staff. Features document uploads and status tracking.",
-    category: "University",
-    Icon: School,
-    image: "https://placehold.co/600x400.png",
-    aiHint: "student application",
-    repoUrl: "#",
-  },
-  {
-    name: "Telemedicine Platform",
-    description:
-      "A secure telemedicine platform connecting patients with doctors for virtual consultations. Features video conferencing, secure messaging, and e-prescription capabilities.",
-    category: "Hospital",
-    Icon: HeartPulse,
-    image: "https://placehold.co/600x400.png",
-    aiHint: "online consultation",
-    liveUrl: "#",
-  },
-  {
-    name: "Volunteer Management App",
-    description:
-      "An application for churches and non-profits to organize and schedule volunteers for events and services. Simplifies coordination and improves engagement.",
-    category: "Church",
-    Icon: Church,
-    image: "https://placehold.co/600x400.png",
-    aiHint: "community event",
-    liveUrl: "#",
-    repoUrl: "#",
-  },
 ];
 
 export const categories: ProjectCategory[] = ["University", "Hospital", "Church"];

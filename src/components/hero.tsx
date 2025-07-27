@@ -9,7 +9,7 @@ export default function Hero() {
           Showcasing Digital Craftsmanship
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
-          Welcome to my portfolio. Explore a curated collection of my projects, from dynamic web portals to specialized applications.
+          Welcome to my portfolio. Explore a curated collection of my projects, from dynamic web portals to websites that are functional.
         </p>
         <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
           <a href="#projects">

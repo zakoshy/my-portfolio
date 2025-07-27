@@ -11,7 +11,7 @@ export default function Footer() {
 
     return (
         <footer className="text-center p-6 text-sm text-muted-foreground border-t">
-            © {year} LinkHub Portfolio. All rights reserved.
+            © {year} Edwin Oshome. All rights reserved.
         </footer>
     );
 }

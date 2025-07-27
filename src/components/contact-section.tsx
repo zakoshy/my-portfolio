@@ -49,7 +49,7 @@ export default function ContactSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Get In Touch</h2>
           <p className="text-muted-foreground mt-2">
-            Have a project in mind or just want to say hello? Drop me a line.
+            Have a project/work in mind or just want to say hello? Drop me a line.
           </p>
         </div>
         <Form {...form}>
