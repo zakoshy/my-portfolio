@@ -5,7 +5,6 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'Edwin Oshome',
   description: 'The professional portfolio for Edwin Oshome, a Biomedical Engineer and Fullstack Developer.',
-  icons: null,
 };
 
 export default function RootLayout({
