@@ -11,7 +11,7 @@ export default function ProjectsSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">My Projects</h2>
           <p className="max-w-2xl mx-auto text-muted-foreground mt-2">
-            Here's a selection of projects I've worked on. Use the AI tool to see how my skills fit your needs.
+            Here's a selection of projects I've worked on. Use the AI tool to see how my skills fit your needs. For more information and sample users, please see the README on GitHub.
           </p>
         </div>
 

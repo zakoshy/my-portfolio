@@ -23,7 +23,7 @@ export const projects: Project[] = [
     Icon: School,
     image: "https://placehold.co/600x400.png",
     aiHint: "university campus",
-    liveUrl: "#",
+    liveUrl: "https://university-frontend-t3q7.onrender.com/",
     repoUrl: "#",
   },
   {
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     Icon: HeartPulse,
     image: "https://placehold.co/600x400.png",
     aiHint: "hospital interior",
-    liveUrl: "#",
+    liveUrl: "https://hospital-frontend-production.up.railway.app/",
     repoUrl: "#",
   },
   {
