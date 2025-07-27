@@ -35,10 +35,17 @@ export default function ContactSection() {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
+    const subject = encodeURIComponent(`Contact Form Submission from ${values.name}`);
+    const body = encodeURIComponent(
+      `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
+    );
+    const mailtoLink = `mailto:zakayooshome254@gmail.com?subject=${subject}&body=${body}`;
+    
+    window.location.href = mailtoLink;
+
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
+      title: "Email Client Opened",
+      description: "Please send the email from your mail client.",
     });
     form.reset();
   }
