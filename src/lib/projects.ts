@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "This portal digitizes university results to eliminate manual processing and printing. Students can conveniently access their results from home, ensuring a streamlined and efficient academic experience.",
     category: "University",
     Icon: School,
-    image: "https://placehold.co/600x400.png",
+    image: "https://steemitimages.com/DQmXb3pH7Ec46FqasgrvQxqNC4iXUXJHREjuzjSbK3BWkzn/The-First-Few-Weeks-Of-University-Life.jpg",
     aiHint: "university campus",
     liveUrl: "https://university-frontend-t3q7.onrender.com/",
     repoUrl: "#",
