@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: 'LinkHub Portfolio',
   description: 'A portfolio site to showcase projects, featuring AI-powered description tailoring.',
+  icons: null,
 };
 
 export default function RootLayout({
