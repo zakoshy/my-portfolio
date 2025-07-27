@@ -32,7 +32,7 @@ export const projects: Project[] = [
       "Created to facilitate the efficiency of hospitals, this portal focuses on handling patient data and expediting processes without delays, ensuring a smoother patient journey.",
     category: "Hospital",
     Icon: HeartPulse,
-    image: "https://media.istockphoto.com/id/1298375809/photo/empty-luxury-modern-hospital-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=IshUd1QTybp-qgJG6FSGk3prbaEqUOjAzbq8GKNWQ98=",
+    image: "https://images.unsplash.com/photo-1563932127565-699eeea1e17a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3BpdGFsJTIwcGljdHVyZXN8ZW58MHx8MHx8fDA%3D",
     aiHint: "doctors surgery",
     liveUrl: "https://hospital-frontend-production.up.railway.app/",
     repoUrl: "#",
