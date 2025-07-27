@@ -67,7 +67,7 @@ export default function Footer() {
                         </Tooltip>
                         <Tooltip>
                             <TooltipTrigger asChild>
-                                <a href="https://wa.me/your-number" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                <a href="https://wa.me/254741157757" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                                     <WhatsAppIcon />
                                     <span className="sr-only">WhatsApp</span>
                                 </a>
