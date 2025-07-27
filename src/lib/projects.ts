@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "A community portal to help people far from their respective churches view and participate in events, pay tithe, and give offerings on Sundays, even when they are not physically present.",
     category: "Church",
     Icon: Church,
-    image: "https://images.unsplash.com/photo-1507925585324-03d3a8451125",
+    image: "https://images.unsplash.com/photo-1589997419427-daff54553276?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     aiHint: "church interior",
     liveUrl: "#",
     repoUrl: "#",
