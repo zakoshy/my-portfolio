@@ -32,7 +32,7 @@ export const projects: Project[] = [
       "Created to facilitate the efficiency of hospitals, this portal focuses on handling patient data and expediting processes without delays, ensuring a smoother patient journey.",
     category: "Hospital",
     Icon: HeartPulse,
-    image: "https://post.healthline.com/wp-content/uploads/2020/08/hospital-bed-patient-etty-images-1200x628.jpg",
+    image: "https://placehold.co/600x400.png",
     aiHint: "hospital interior",
     liveUrl: "https://hospital-frontend-production.up.railway.app/",
     repoUrl: "#",
