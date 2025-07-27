@@ -20,6 +20,7 @@ import { Send, User, Mail, Phone, MapPin } from "lucide-react";
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
+  phone: z.string().min(10, { message: "Please enter a valid phone number." }),
   message: z.string().min(10, { message: "Message must be at least 10 characters." }),
 });
 
@@ -30,6 +31,7 @@ export default function ContactSection() {
     defaultValues: {
       name: "",
       email: "",
+      phone: "",
       message: "",
     },
   });
@@ -37,7 +39,7 @@ export default function ContactSection() {
   function onSubmit(values: z.infer<typeof formSchema>) {
     const subject = encodeURIComponent(`Contact Form Submission from ${values.name}`);
     const body = encodeURIComponent(
-      `Name: ${values.name}\nEmail: ${values.email}\n\nMessage:\n${values.message}`
+      `Name: ${values.name}\nPhone: ${values.phone}\n\nMessage:\n${values.message}`
     );
     const mailtoLink = `mailto:zakayooshome254@gmail.com?subject=${subject}&body=${body}`;
     
@@ -117,6 +119,22 @@ export default function ContactSection() {
                       <Mail className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                       <FormControl>
                           <Input type="email" placeholder="your.email@example.com" {...field} className="pl-10" />
+                      </FormControl>
+                    </div>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <FormField
+                control={form.control}
+                name="phone"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Phone</FormLabel>
+                    <div className="relative">
+                      <Phone className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                      <FormControl>
+                          <Input type="tel" placeholder="Your Phone Number" {...field} className="pl-10" />
                       </FormControl>
                     </div>
                     <FormMessage />
