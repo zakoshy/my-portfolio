@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'LinkHub Portfolio',
-  description: 'A portfolio site to showcase projects, featuring AI-powered description tailoring.',
+  title: 'Edwin Oshome',
+  description: 'The professional portfolio for Edwin Oshome, a Biomedical Engineer and Fullstack Developer.',
   icons: null,
 };
 
