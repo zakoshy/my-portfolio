@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     name: "University Portal Sample",
     description:
-      "A comprehensive portal for universities, featuring student and faculty dashboards, course registration, and grade management systems. Built with modern web technologies for a seamless user experience.",
+      "This portal digitizes university results to eliminate manual processing and printing. Students can conveniently access their results from home, ensuring a streamlined and efficient academic experience.",
     category: "University",
     Icon: School,
     image: "https://placehold.co/600x400.png",
@@ -29,7 +29,7 @@ export const projects: Project[] = [
   {
     name: "Hospital Portal",
     description:
-      "An integrated hospital management system designed to streamline patient registration, appointment scheduling, and electronic health records. Focuses on security and HIPAA compliance.",
+      "Created to facilitate the efficiency of hospitals, this portal focuses on handling patient data and expediting processes without delays, ensuring a smoother patient journey.",
     category: "Hospital",
     Icon: HeartPulse,
     image: "https://placehold.co/600x400.png",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
   {
     name: "Church Portal",
     description:
-      "A community portal for churches to manage memberships, events, donations, and communication. Includes features for live-streaming services and small group organization.",
+      "A community portal to help people far from their respective churches view and participate in events, pay tithe, and give offerings on Sundays, even when they are not physically present.",
     category: "Church",
     Icon: Church,
     image: "https://placehold.co/600x400.png",
