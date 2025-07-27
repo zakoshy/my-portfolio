@@ -5,7 +5,8 @@ export default function Hero() {
   return (
     <section id="hero" className="py-20 md:py-32 bg-card">
       <div className="container text-center">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 font-headline">
+        <span className="text-lg md:text-xl text-primary font-bold">Hi, I'm Edwin Oshome 👋</span>
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mt-2 mb-4 font-headline">
           Biomedical Engineer & Fullstack Developer
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-muted-foreground mb-8">
