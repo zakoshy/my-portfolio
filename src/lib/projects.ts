@@ -24,7 +24,7 @@ export const projects: Project[] = [
     image: "https://steemitimages.com/DQmXb3pH7Ec46FqasgrvQxqNC4iXUXJHREjuzjSbK3BWkzn/The-First-Few-Weeks-Of-University-Life.jpg",
     aiHint: "university campus",
     liveUrl: "https://university-frontend-t3q7.onrender.com/",
-    repoUrl: "https://github.com/your-username/university-portal",
+    repoUrl: "https://github.com/zakoshy/university-frontend",
   },
   {
     name: "Hospital Portal",
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     image: "https://images.unsplash.com/photo-1563932127565-699eeea1e17a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3BpdGFsJTIwcGljdHVyZXN8ZW58MHx8MHx8fDA%3D",
     aiHint: "doctors surgery",
     liveUrl: "https://hospital-frontend-production.up.railway.app/",
-    repoUrl: "https://github.com/your-username/hospital-portal",
+    repoUrl: "https://github.com/zakoshy/Hospital-frontend",
   },
   {
     name: "Church Portal",
