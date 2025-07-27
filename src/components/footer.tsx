@@ -26,7 +26,7 @@ export default function Footer() {
 
     return (
         <footer className="border-t">
-            <div className="container py-6 flex flex-col items-center justify-center gap-4 sm:flex-row sm:justify-between">
+            <div className="container py-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <div className="text-center text-sm text-muted-foreground">
                     © {year} Edwin Oshome. All rights reserved.
                 </div>
