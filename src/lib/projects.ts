@@ -45,8 +45,8 @@ export const projects: Project[] = [
     Icon: Church,
     image: "https://images.unsplash.com/photo-1589997419427-daff54553276?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     aiHint: "church interior",
-    liveUrl: "#",
-    repoUrl: "https://github.com/your-username/church-portal",
+    liveUrl: "https://church-portal-production.up.railway.app",
+    repoUrl: "https://github.com/zakoshy/church-portal",
   },
 ];
 
