@@ -34,7 +34,7 @@ export default function Footer() {
                     <div className="flex items-center gap-4">
                         <Tooltip>
                             <TooltipTrigger asChild>
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                <a href="https://www.linkedin.com/in/zakayo-oshome-b627b52b5" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                                     <Linkedin className="h-5 w-5" />
                                     <span className="sr-only">LinkedIn</span>
                                 </a>
@@ -45,7 +45,7 @@ export default function Footer() {
                         </Tooltip>
                         <Tooltip>
                             <TooltipTrigger asChild>
-                                <a href="#" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                                <a href="https://twitter.com/edwindeZak74715" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                                     <Twitter className="h-5 w-5" />
                                     <span className="sr-only">Twitter</span>
                                 </a>
