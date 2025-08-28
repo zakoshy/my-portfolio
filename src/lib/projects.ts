@@ -34,7 +34,7 @@ export const projects: Project[] = [
     Icon: HeartPulse,
     image: "https://images.unsplash.com/photo-1563932127565-699eeea1e17a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvc3BpdGFsJTIwcGljdHVyZXN8ZW58MHx8MHx8fDA%3D",
     aiHint: "doctors surgery",
-    liveUrl: "https://hospital-frontend-production.up.railway.app/",
+    liveUrl: "hospital-frontend-amber.vercel.app",
     repoUrl: "https://github.com/zakoshy/Hospital-frontend",
   },
   {
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     Icon: Church,
     image: "https://images.unsplash.com/photo-1589997419427-daff54553276?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     aiHint: "church interior",
-    liveUrl: "https://church-portal-production.up.railway.app",
+    liveUrl: "www.ifcchangara.co.ke",
     repoUrl: "https://github.com/zakoshy/church-portal",
   },
 ];
