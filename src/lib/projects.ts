@@ -21,7 +21,7 @@ export const projects: Project[] = [
       "This portal digitizes university results to eliminate manual processing and printing. Students can conveniently access their results from home, ensuring a streamlined and efficient academic experience.",
     category: "University",
     Icon: School,
-    image: "https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg",
+    image: "https://images.pexels.com/photos/3864594/pexels-photo-3864594.jpeg",
     aiHint: "university campus",
     liveUrl: "https://university-frontend-t3q7.onrender.com/",
     repoUrl: "https://github.com/zakoshy/university-frontend",
